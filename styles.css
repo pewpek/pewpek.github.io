@@ -1,0 +1,58 @@
+html body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#toDoContainer {
+ width: 100%;
+ margin: 0 25 0 25;
+ text-align: center;
+
+}
+
+#input {
+    width: 300px;
+    height: 25px;
+    position: relative;
+    border-radius: 0%;
+    border-collapse: collapse;
+}
+#button:hover {
+    background-color: rgb(171, 169, 172);
+}
+#button {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-family: cursive;
+    font-size: larger;
+    top: 93px;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.listed {
+    font-family: cursive;
+    margin: 5px;
+    font-size: 20px;
+    display: block;
+}
+
+.btn {
+    margin: 5px;
+    font-family: fantasy;
+    color :green;
+}
+
+.btn:hover {
+    background-color: rgb(233, 51, 51);
+}
